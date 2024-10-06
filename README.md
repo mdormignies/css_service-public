@@ -1,4 +1,4 @@
-Lien vers la page hébergé : https://mdormignies.github.io/css_service-public/µ
+Lien vers la page hébergé : https://mdormignies.github.io/css_service-public/
 <br>
 Github : https://github.com/mdormignies/css_service-public/
 
