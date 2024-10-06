@@ -1,0 +1,262 @@
+header {
+    background: linear-gradient(to bottom, #f2fbff, white 50%, #f2fbff);
+}
+
+#recherche_conteneur {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#rechercheInput {
+    flex-grow: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navLink {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    white-space: normal;
+}
+
+nav>ul {
+    padding-left: 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #ebebeb, white 33%, #e9f9ff);
+}
+
+nav > ul > li {
+    width: 100%;
+}
+
+nav > ul > li > a {
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid rgb(21, 105, 170);
+    box-sizing: border-box;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 100%;
+    background-color: #ebebeb !important;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+}
+
+nav li ul a {
+    padding: 0px;
+    text-align: left;
+}
+
+nav ul li ul li {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+main ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+
+main a img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+main ul li {
+    padding-left: 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.titleCard {
+    display: flex;
+    margin: 0;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(21, 105, 170);
+    color: white;
+}
+
+.titleRedCard {
+    display: flex;
+    margin: 0;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(192, 30, 30);
+    color: white;
+}
+
+.headCard {
+    padding-bottom: 2px;
+    color: rgb(21, 63, 170);
+}
+
+.bodyCard {
+    background-color: rgb(227, 227, 227);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bodyCard>div {
+    padding: 10px;
+    text-align: left;
+}
+
+.bodyCard div img {
+    padding: 5px;
+    text-align: left;
+}
+
+.bodyCard ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 0;
+}
+
+.bodyCard ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.bodyCard ul {
+    padding-left: 5px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.bodyCard ul li {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.asideCardTwo {
+    margin-top: 10px;
+}
+
+.redText {
+    text-decoration: none;
+    color: rgb(192, 30, 30);
+}
+
+.redText:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.blueText {
+    text-decoration: none;
+    color: rgb(21, 63, 170);
+}
+
+.blueText:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.date {
+    color: rgb(192, 30, 30);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+footer>ul {
+    text-align: center;
+    display: block;
+}
+
+.skyBluePart {
+    background-color: rgb(0, 94, 255);
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.skyBluePart p {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+    width: 100%;
+}
+
+.skyBluePart>ul>li>ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skyBluePart>ul>li {
+    color: blue;
+    margin-bottom: 0.3rem;
+}
+
+.blueMoonPart {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 10px;
+    background-color: rgb(9, 0, 171);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: center;
+}
+
+.blueMoonPart a {
+    padding: 5px;
+    color: rgb(165, 165, 165);
+}
