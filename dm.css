@@ -271,3 +271,18 @@ footer>ul {
     padding: 5px;
     color: rgb(165, 165, 165);
 }
+
+@media (max-width: 768px) {
+
+    .blueMoonPart {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    .blueMoonPart a {
+        display: block; 
+        text-align: center; 
+        width: 100%; 
+        white-space: normal; 
+    }
+}
