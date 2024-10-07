@@ -48,8 +48,18 @@ nav > ul > li {
 nav > ul > li > a {
     display: block;
     width: 100%;
-    border-bottom: 3px solid rgb(21, 105, 170);
-    box-sizing: border-box;
+    position: relative; /* Permet de positionner le pseudo-élément */
+}
+
+nav > ul > li > a::after {
+    content: '';
+    position: absolute;
+    left: 14px;
+    bottom: -3px; /* Positionne légèrement en dessous du lien */
+    width: 112%; /* Augmente la largeur au-delà de 100% */
+    height: 3px; /* Épaisseur de la "border" */
+    background-color: rgb(21, 105, 170); /* Couleur de la bordure */
+    transform: translateX(-10%); /* Centrer la bordure */
 }
 
 nav li {
